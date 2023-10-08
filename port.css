@@ -1,0 +1,36 @@
+header{
+    display: grid;
+    grid-template-columns: 60% 8% 8% 8% 8% 8%;
+}
+header #mail{
+    justify-items:flex-start;
+}
+img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50% 50%;
+}
+main{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+main h1{
+    max-width: 20ch;
+    text-align: center;
+}
+main img{
+    margin-top: 2rem;
+    margin-left: 7rem;
+}
+main p{
+    max-width: 35ch;
+    text-align: center;
+}
+main button{
+    border-radius: 50%;
+    width: 7rem;
+    font-size: 0.6rem;
+    height: 1.5rem;
+    margin-left: 5rem;
+}
